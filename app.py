@@ -126,7 +126,7 @@ def apis(idd, region):
         'Authorization': f'Bearer {token}',
         'X-Unity-Version': '2018.4.11f1',
         'X-GA': 'v1 1',
-        'ReleaseVersion': 'OB52',
+        'ReleaseVersion': 'OB53',
         'Content-Type': 'application/x-www-form-urlencoded',
     }
     
@@ -173,7 +173,7 @@ def get_player_info():
         message = AccountPersonalShowInfo()
         message.ParseFromString(bytes.fromhex(api_response))
         result = MessageToDict(message)
-        result['Owners'] = ['KALLU CODEX!!']
+        result['Owners'] = ['𝐒𝐓𝐀𝐑 𝐆𝐀𝐌𝐄𝐑!']
         return jsonify(result)
     
     except ValueError:
