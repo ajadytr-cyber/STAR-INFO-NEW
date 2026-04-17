@@ -40,14 +40,14 @@ def get_jwt_token_sync(region):
     global jwt_token
     endpoints = {
     "IND": "http://star-jwt-gen.vercel.app/token?uid=4724815461&password=1JK_KNXQA_BY_STAR_GMR_QFA67",
-    "BR": "http://star-jwt-gen.vercel.app/token?uid=4724874406&password=DANGER-LPN34CEIS-CORE",
+    "BR": "https://star-jwt-gen.vercel.app/token?uid=4306321147&password=2CB147EAE34E9A2B0526B577239A752B78732EE0EAE59FD4EE54F6A661B4D21F",
     "US": "http://star-jwt-gen.vercel.app/token?uid=4724874406&password=DANGER-LPN34CEIS-CORE",
     "SAC": "http://star-jwt-gen.vercel.app/token?uid=4724874406&password=DANGER-LPN34CEIS-CORE",
-    "BD": "https://star-jwt-gen.vercel.app/token?uid=4724874406&password=DANGER-LPN34CEIS-CORE",
+    "BD": "https://star-jwt-gen.vercel.app/token?uid=4583325264&password=C22504C42D01138B8B4F607E109F15D49123653B8231FE5A42EAC833DE3EA550",
     "ID": "http://star-jwt-gen.vercel.app/token?uid=4724874406&password=DANGER-LPN34CEIS-CORE",
     "PK": "http://star-jwt-gen.vercel.app/token?uid=4724874406&password=DANGER-LPN34CEIS-CORE",
     "VN": "http://star-jwt-gen.vercel.app/token?uid=4724874406&password=DANGER-LPN34CEIS-CORE",
-    "ME": "http://star-jwt-gen.vercel.app/token?uid=4724874406&password=DANGER-LPN34CEIS-CORE",
+    "ME": "https://star-jwt-gen.vercel.app/token?uid=4724700760&password=05E15D4F377AE6CC6E2EFE88C09D13010DC548028813AA934C0B8104832A75A1",
     "TH": "http://star-jwt-gen.vercel.app/token?uid=4724874406&password=DANGER-LPN34CEIS-CORE",
     "default": "http://star-jwt-gen.vercel.app/token?uid=4658804976&password=VISIT_API_BY_KAISER_KBKP4_BY_STAR_GMR_QIMU2"
     }
